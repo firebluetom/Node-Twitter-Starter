@@ -1,0 +1,23 @@
+/* desktop.css */
+@import url("bootstrap.css");
+@import url("commonstyles.css");
+
+.center-text {
+	text-align: center;
+}
+.not-in-list {
+	color: red;
+}
+.in-list {
+	color: green;
+}
+.checkmark {
+	background-image: url("../img/checkmark.png");
+	height: 10px;
+	width: 10px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 10px;
+}
